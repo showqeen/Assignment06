@@ -1,0 +1,114 @@
+\documentclass[tikz,border=2pt,png]{article}
+\begin{document}
+\title{ASSIGNMENT 6}
+\author{Showqeen Yousuf}
+\date{\today}
+\maketitle
+\begin{itemize}
+
+\item{\textbf{Question 2.81:}}\\
+
+For what value of k is the following function continuous at the given point.\\
+
+\[f(x)=
+\left\{\begin{array}{11}
+kx+1 & x \le 5\\
+3x-5 & x > 5\\
+\end{array}
+\right. \]\\
+
+\textbf{Solution:}\\
+
+\[f(x)=
+\left\{\begin{array}{11}
+kx+1 & x \le 5\\
+3x-5 & x > 5\\
+\end{array}
+\right. \]\\
+
+
+Since $kx+1$ and $3x-5$ are linear polynomials(always continuous).So, for function f(x) to be continuous, it should be continuous at $x=5$.\\
+
+So,\\
+
+\hspace{3.8 cm}$lim_{x\to5^{+}}f(x)=3(5)-(5)=10$.\\
+
+Also, \hspace{3 cm}$lim_{x\to5^{-}}f(x)=k(5)+1$.\\
+
+Since for continuity,\\
+
+\hspace{3.8 cm}$lim_{x\to5^{+}}f(x)=lim_{x\to5^{+}}f(x)$.\\
+
+or, \hspace{3.3 cm}$10=5k+1$.\\
+
+Hence, \hspace{3.5 cm}$k=9/5$.\\
+
+\item{\textbf{Question 2.82:}}\\
+
+Prove that the function f given by $f(x) = |x - 1|$ , $x \in R$ is not differentiable at $x = 1.$\\
+
+\textbf{Solution:}\\
+
+Here, \hspace{2 cm}$f(x) = |x - 1|$, \hspace{3 cm}$x \in R$\\
+
+\[f(x)=
+\left\{\begin{array}{11}
+x-1 & x \ge 1\\
+-x+1 & x < 1\\
+\end{array}
+\right. \]\\
+
+\[f(x)=
+\left\{\begin{array}{11}
+1 & x \ge 1\\
+-1 & x > 1\\
+\end{array}
+\right. \]\\
+
+Since at $x=1$ LHS \neq RHS (i.e,1 \neq -1).\\
+
+f(x) is not differentiable at $x=1$.\\
+
+\item{\textbf{Question 2.83:}}\\
+
+Prove that the greatest integer function defined  by $f(x)=[x],0<x<3$ is not differentiable at $x=1$ and $x=2$.\\
+
+\textbf{Solution:}\\
+
+Since,\\
+
+$f(x)=[x]$, $0<x<3$\\
+
+\[f(x)=
+\left\{\begin{array}{11}
+0 & 0 < x < 1\\
+1 & 1 \le x < 2\\
+2 & 2 \le x < 3\\
+\end{array}
+\right. \]\\
+
+$for x=1:$\\
+
+\hspace{3.5 cm}$ lim_{x\to1{-}f(x)=0$.\\
+
+\hspace{3.5 cm}$ lim_{x\to1{+}f(x)=1$.\\
+
+\hspace{3.5 cm}$ lim_{x\to1{-}f(x) \neq lim_{x\to1{+}f(x)$.\\
+
+f(x) is not continuous at 1.\\
+ 
+Similarly,\\
+
+$for x=2:$\\
+
+\hspace{3.5 cm}$ lim_{x\to2{-}f(x)=1$.\\
+
+\hspace{3.5 cm}$ lim_{x\to2{+}f(x)=2$.\\
+
+\hspace{3.5 cm}$ lim_{x\to1{-}f(x) \neq lim_{x\to1{+}f(x)$.\\
+
+f(x) is not continuous at 2.\\
+
+Since, f(x) is not differentiable at x=1 and x=2. So, it is not differentiable at x=1 and x=2.$\\
+\end{itemize}
+\end{document}
